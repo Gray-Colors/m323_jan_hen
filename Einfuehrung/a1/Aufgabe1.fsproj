@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_01_Einführung</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Aufgabe1.fs" />
+  </ItemGroup>
+
+</Project>
