@@ -2,14 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_01_Einfuerung</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Aufgabe2_Java.java" />
-    <Compile Include="Aufgabe2.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
