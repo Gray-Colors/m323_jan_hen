@@ -1,10 +1,12 @@
 ﻿
+module Anforderungen
+
 type LapTime = { CarId: int; LapTime: float }
 
 let calculateTotalAndAverageTimes (laptimes: LapTime list) =
     let laptimesByCar =
         laptimes
-        |> List.filter (fun lp -> lp.Lap > 1) // filter out warm-up lap
+        |> List.filter (fun lp -> lp.LapTime > 1) // filter out warm-up lap
         |> List.groupBy (fun lp -> lp.CarId)
 
     let totalTimes =
