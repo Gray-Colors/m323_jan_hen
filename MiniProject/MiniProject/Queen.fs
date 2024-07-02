@@ -31,4 +31,3 @@ let main argv =
     let a = solve 8 [||]
     printfn "Found %d possible solutions!" a.Length
     0
-        
